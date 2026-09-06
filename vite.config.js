@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/cv/', // Menyesuaikan dengan nama repository GitHub (nwidiyanti.github.io/cv)
+  base: './', // Menggunakan relative path agar aman dari masalah nama folder/repo
 })
